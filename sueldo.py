@@ -9,8 +9,8 @@ Calcular el sueldo semanal de un empleado
 
 
 # Entradas
-horas = int(input("Horas trabajadas esta semana: "))
-tarifa = int(input("Tarifa horaria: "))
+horas = float(input("Horas trabajadas esta semana: "))
+tarifa = float(input("Tarifa horaria: "))
 horas_extras = 0
 
 # Proceso
