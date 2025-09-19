@@ -21,5 +21,6 @@ pago_extra = horas_extras * tarifa * 2
 sueldo = horas * tarifa + pago_extra
 
 # Salidas
-print("Este es el sueldo $", sueldo)
-print("Trabajó ", horas_extras, " horas extras y esto se le pagó por esas horas extras", pago_extra)
+print("Horas extras: ", horas_extras)
+print("Sueldo por horas extras: $", pago_extra)
+print("Sueldo total: $", sueldo)
